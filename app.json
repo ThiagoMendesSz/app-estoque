@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Lastro Estoque",
+    "slug": "lastro-estoque",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lastroestoque",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "plugins": ["expo-router"],
+    "web": { "bundler": "metro", "output": "single" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.faculdade.lastroestoque"
+    },
+    "android": {
+      "package": "com.faculdade.lastroestoque",
+      "softwareKeyboardLayoutMode": "resize"
+    }
+  }
+}
